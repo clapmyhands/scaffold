@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "lines": [
+    [
+      {
+        "id": "77b7acca-433c-4f32-b281-80fbfa786496",
+        "type": "model",
+        "color": "black",
+        "backgroundColor": "hex:BF616A",
+        "rawValue": true
+      },
+      {
+        "id": "64608603-b6e4-4a70-ba16-f086bb4303c4",
+        "type": "current-working-dir",
+        "color": "black",
+        "backgroundColor": "hex:EBCB8B",
+        "rawValue": true,
+        "metadata": {
+          "fishStyle": "true"
+        }
+      },
+      {
+        "id": "5",
+        "type": "git-branch",
+        "color": "black",
+        "backgroundColor": "hex:A3BE8C",
+        "rawValue": false,
+        "merge": "no-padding"
+      },
+      {
+        "id": "48e48cc7-d936-47f8-ae57-9544826f5c5f",
+        "type": "git-status",
+        "color": "cyan",
+        "backgroundColor": "hex:A3BE8C"
+      },
+      {
+        "id": "3",
+        "type": "git-ahead-behind",
+        "color": "brightYellow",
+        "backgroundColor": "bgBrightMagenta",
+        "rawValue": false
+      }
+    ],
+    [
+      {
+        "id": "b73f5aeb-0f5a-45d3-a0cc-70f4a211df03",
+        "type": "custom-text",
+        "color": "white",
+        "customText": "Ctx: ",
+        "merge": "no-padding"
+      },
+      {
+        "id": "1014ef30-e7a7-4ce9-ae05-b9ebb10d21c9",
+        "type": "context-bar",
+        "color": "white",
+        "backgroundColor": "bgBlack",
+        "rawValue": true,
+        "merge": true,
+        "metadata": {
+          "display": "progress-short"
+        }
+      },
+      {
+        "id": "3b9e68e4-83ce-45ad-b1e3-d78d8b350c9b",
+        "type": "custom-text",
+        "color": "hex:EBCB8B",
+        "customText": "C: ",
+        "merge": "no-padding"
+      },
+      {
+        "id": "99138138-7f7d-450f-b1a0-d8a44cf609b4",
+        "type": "tokens-cached",
+        "color": "hex:EBCB8B",
+        "rawValue": true,
+        "merge": true
+      },
+      {
+        "id": "0ec9acbf-2e41-40f8-9596-a03ee2043869",
+        "type": "custom-text",
+        "color": "hex:A3BE8C",
+        "customText": "In: ",
+        "merge": "no-padding"
+      },
+      {
+        "id": "076f78c3-f7dd-4ffd-83f8-599c0bfb0979",
+        "type": "tokens-input",
+        "color": "hex:A3BE8C",
+        "rawValue": true,
+        "merge": true
+      },
+      {
+        "id": "defaac14-538e-4721-b33c-f954bbf34a4f",
+        "type": "custom-text",
+        "color": "hex:88C0D0",
+        "customText": "Out: ",
+        "merge": "no-padding"
+      },
+      {
+        "id": "bc5213dc-2dc5-4a3f-8db9-006d1d3d9fe7",
+        "type": "tokens-output",
+        "color": "hex:88C0D0",
+        "rawValue": true
+      },
+      {
+        "id": "bdd67930-0074-4132-856a-d728070d04e2",
+        "type": "session-clock",
+        "rawValue": true,
+        "merge": true,
+        "backgroundColor": "bgBlack"
+      }
+    ]
+  ],
+  "flexMode": "full-minus-40",
+  "compactThreshold": 60,
+  "colorLevel": 3,
+  "defaultPadding": " ",
+  "inheritSeparatorColors": false,
+  "globalBold": false,
+  "minimalistMode": false,
+  "powerline": {
+    "enabled": true,
+    "separators": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "separatorInvertBackground": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "startCaps": [],
+    "endCaps": [
+      ""
+    ],
+    "theme": "custom",
+    "autoAlign": false,
+    "continueThemeAcrossLines": false
+  }
+}
