@@ -1,0 +1,30 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "<base_url>",
+    "ANTHROPIC_AUTH_TOKEN": "<api_key>",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "ANTHROPIC_MODEL": "<model>",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "<model>",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "<model>",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "<model>"
+  },
+  "enabledPlugins": {
+    "andrej-karpathy-skills@karpathy-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "karpathy-skills": {
+      "source": {
+        "source": "github",
+        "repo": "forrestchang/andrej-karpathy-skills"
+      }
+    }
+  },
+  "effortLevel": "high",
+  "theme": "dark",
+  "statusLine": {
+    "type": "command",
+    "command": "npx -y ccstatusline@latest",
+    "padding": 0
+  }
+}
