@@ -17,4 +17,4 @@
 
 ## Optional
 
-- [ ] 
+- [ ] [Vundle](https://github.com/vundlevim/vundle.vim)

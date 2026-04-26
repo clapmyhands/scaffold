@@ -53,7 +53,6 @@
         "id": "1014ef30-e7a7-4ce9-ae05-b9ebb10d21c9",
         "type": "context-bar",
         "color": "white",
-        "backgroundColor": "bgBlack",
         "rawValue": true,
         "merge": true,
         "metadata": {
@@ -104,9 +103,10 @@
       {
         "id": "bdd67930-0074-4132-856a-d728070d04e2",
         "type": "session-clock",
+        "backgroundColor": "bgBrightBlack",
         "rawValue": true,
         "merge": true,
-        "backgroundColor": "bgBlack"
+        "color": "yellow"
       }
     ]
   ],
@@ -126,9 +126,8 @@
       "",
       "",
       "",
-      "",
       "",
-      ""
+      ""
     ],
     "separatorInvertBackground": [
       false,
@@ -138,12 +137,12 @@
       false,
       false,
       false,
-      false,
-      false
+      true
     ],
     "startCaps": [],
     "endCaps": [
-      ""
+      "",
+      ""
     ],
     "theme": "custom",
     "autoAlign": false,
