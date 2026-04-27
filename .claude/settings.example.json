@@ -50,13 +50,6 @@
           {"type": "command", "command": "$HOME/.claude/hooks/protect-files.sh"}
         ]
       }
-    ],
-    "SessionEnd": [
-      {
-        "hooks": [
-          {"type": "command", "command": "$HOME/.claude/hooks/daily-tokens-log.sh"}
-        ]
-      }
     ]
   }
 }

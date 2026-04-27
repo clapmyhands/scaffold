@@ -8,8 +8,8 @@ dangerous_patterns=(
   "git push.*--force"
   "DROP TABLE"
   "DROP DATABASE"
-  "curl.*|.*sh"
-  "wget.*|.*bash"
+  "curl[^|]*\|.*(ba)?sh"
+  "wget[^|]*\|.*(ba)?sh"
 )
 
 for pattern in "${dangerous_patterns[@]}"; do
@@ -19,19 +19,3 @@ for pattern in "${dangerous_patterns[@]}"; do
   fi
 done
 exit 0
-Then add to your settings.json:
-{
-  "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": ".claude/hooks/block-dangerous.sh"
-          }
-        ]
-      }
-    ]
-  }
-}
